@@ -1,0 +1,86 @@
+/*Fuente de letra para toda la página*/
+.body, html{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+/*Fondo para diferenciar el header. Indicamos que la imagen no se repita y se quede fija según hacemos scroll*/
+.header{
+    background-color: #4f7ba5;
+    text-align: center;
+    background-image: url("../images/code.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 330px;
+    color:white;
+}
+/*Centramos el texto de los títulso de las entradas*/
+.entradas h3{
+    text-align: center;
+}
+/*Añadimos color de fondo al footer para diferenciarlo*/
+.footer{
+    background-color: #d7ecfa;
+    padding: 50px 0 20px;
+    text-align: center;
+}
+/*Centramos el texto del menú y lo separamos del header con margin-top*/
+.menu {
+    text-align: center;
+    margin-top: 2em;
+}
+/*Damos formato al menú quitando el subrayado, los puntos de cada elemento y lo centramos*/
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+/*Para que cada elemento se sitúe uno al lado del otro utilizamos float: left*/
+.menu li {
+    float: left;
+    padding: 2px 5px;
+}
+/*Le damos color de fondo a cada elemento del menú, color a la letra y display:block para darle más espacio*/
+li a {
+    display: block;
+    padding: 13px;
+    background-color: #427a9f;
+    color: white;
+}
+/*Se define tamaño para la imagen de cada entrada del blog*/
+.image-container{
+    height: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Le damos borde redondeado a las imágenes de las entradas */
+.image-container img {
+    border-radius: 50%;
+    width: 226px;
+    margin-top:134px;
+}
+/*Le damos altura fija a las imágenes para que todas ocupen lo mismo*/
+.imagen-entrada img{
+    height:20em;
+    border-radius: 10%;
+    margin-right: 1em;
+}
+
+/*Para alinear imagen y texto usamos el display:flex*/
+.entrada {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+/*Modificamos el hr para que no ocupe todo el ancho y se muestre como una línea punteada*/
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 50px auto;
+}
+/*Evitar que los enlaces de la página no se muestren subrayados*/
+a {
+    text-decoration: none;
+}

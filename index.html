@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi blog</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&display=swap" rel="stylesheet">
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/9eaa7b0d7d.js" crossorigin="anonymous"></script>
+    <!--Personal css styles-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--Personal js file-->
+    <script src="file.js"></script>
+</head>
+<body>
+    <header id="header" class="header">
+      <div class="image-container">
+        <img src="https://media-exp1.licdn.com/dms/image/C4E03AQH5PTr7bVGviA/profile-displayphoto-shrink_400_400/0/1517542285358?e=1642032000&v=beta&t=-azrwtzOft4tEYETohgp9Yb06G5dEl_bvMA48egJgsA" alt="foto_raquel_pereda_herreria">
+      </div>
+        <h1>Raquel Pereda Herrería</h1>
+        <h4>Bienvenidos a mi blog personal</h4>
+    </header>
+
+    <nav class="menu">
+      <ul>
+        <li><a href="#header">INICIO</a></li>
+        <li><a href="#entradas">ENTRADAS</a></li>
+        <li><a href="#contacto">CONTACTO</a></li>
+      </ul>
+    </nav>
+    <hr>
+    <section id="entradas" class="entradas">
+      <h3>¡Primera entrada del blog!</h3>
+      <div class="entrada">
+        <div class="imagen-entrada">
+          <img src="images/albatros.jpg" alt="ave_albatros">
+        </div>
+        <div class="text-entrada">
+          <p>Has maiorum habemus detraxit at. Timeam fabulas splendide et his. Facilisi aliquando sea ad, vel ne consetetur adversarium. Integre admodum et his, nominavi urbanitas et per, alii reprehendunt et qui. His ei meis legere nostro, eu kasd fabellas definiebas mei, in sea augue iriure.</p>
+          <p id="entrada1" style="display: none;">Has maiorum habemus detraxit at. Timeam fabulas splendide et his. Facilisi aliquando sea ad, vel ne consetetur adversarium. Integre admodum et his, nominavi urbanitas et per, alii reprehendunt et qui. His ei meis legere nostro, eu kasd fabellas definiebas mei, in sea augue iriure. Est ei erat mucius quaeque. Ei his quas phaedrum, efficiantur mediocritatem ne sed, hinc oratio blandit ei sed. Blandit gloriatur eam et. Brute noluisse per et, verear disputando neglegentur at quo. Sea quem legere ei, unum soluta ne duo. Ludus complectitur quo te, ut vide autem homero pro.</p>
+          <a id="enlaceEntrada1mas" href="javascript:showMore1()">Leer más...</a>
+          <a style="display: none;" id="enlaceEntrada1menos" href="javascript:showLess1()">Leer menos...</a>
+        </div>
+      </div>
+      
+      
+      <h3>Hablemos ahora de la universidad</h3>
+      <div class="entrada">
+        <div class="text-entrada">
+          <p>la imagen se corresonde con la universidad de Lahore en Pakistán. etenda, sint quando facilisis ei per, delectus constituto sea te.</p>
+          <p>At cum soleat disputationi, quo veri admodum vituperata ad. Ea vix ceteros complectitur, vel cu nihil nullam. Nam placerat oporteat molestiae ei, an putant albucius qui. Oblique menandri ei his, mei te mazim oportere comprehensam.</p>
+          <p id="entrada2" style="display: none;">Has maiorum habemus detraxit at. Timeam fabulas splendide et his. Facilisi aliquando sea ad, vel ne consetetur adversarium. Integre admodum et his, nominavi urbanitas et per, alii reprehendunt et qui. Hbas mei, in sea augue iriure. Est ei erat mucius quaeque. Ei his quas phaedrum, efficiantur mediocritatem ne sed, hinc oratio blandit ei sed. Blandit gloriatur eam et. Brute noluisse per et, verear disputando neglegentur at quo. Sea quem legere ei, unum soluta ne duo. Ludus complectitur quo te, ut vide autem homero pro.</p>
+          <a id="enlaceEntrada2mas" href="javascript:showMore2()">Leer más...</a>
+          <a style="display: none;" id="enlaceEntrada2menos" href="javascript:showLess2()">Leer menos...</a>
+        </div>
+        <div class="imagen-entrada">
+          <img src="images/universidad.jpg" alt="ave_albatros">
+        </div>
+      </div>
+      
+      <h3>Aprendiendo algo nuevo cada día</h3>
+      <div class="entrada">
+        <div class="imagen-entrada">
+          <img src="images/dream.jpg" alt="ave_albatros">
+        </div>
+        <div class="text-entrada">
+          <p>Eam ex integre quaeque bonorum, ea assum solet scriptorem pri, et usu nonummy accusata interpretaris. Debitis necessitatibus est no. Eu probo graeco eum, at eius choro sit, possit recusabo corrumpit vim ne. Noster diceret delicata vel id.</p>
+          <p id="entrada3" style="display: none;">Has maiorum habemus detraxit at. Timeam fabulas splendide et his. Facilisi aliquando sea ad, vel ne consetetur adversarium. Integre admodum et his, nominavi urbanitas et per, alii reprehendunt et qui. His ei meis legere nostro, eu kasd fabellas definiebas mei, in sea augue iriure. Est ei erat mucius quaeque. Ei his quas phaedrum, efficiantur mediocritatem ne sed, hinc oratio blandit ei sed. Blandit gloriatur eam et. Brute noluisse per et, verear disputando neglegentur at quo. Sea quem legere ei, unum soluta ne duo. Ludus complectitur quo te, ut vide autem homero pro.</p>
+          <a id="enlaceEntrada3mas" href="javascript:showMore3()">Leer más...</a>
+          <a style="display: none;" id="enlaceEntrada3menos" href="javascript:showLess3()">Leer menos...</a>
+        </div>
+      </div>
+    </section>
+    <hr>
+   
+    <footer id="contacto" class="footer">
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-facebook"></i>
+      <i class="fas fa-at"></i>
+      <p><i class="fab fa-creative-commons"></i> 2021 - Desarrollo de Aplicaciones en Red</p>
+    </footer>
+</body>
+</html>
